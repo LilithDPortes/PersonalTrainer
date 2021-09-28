@@ -1,0 +1,65 @@
+header {
+    text-align: center;
+    margin: 15px;
+    color: #feb272;
+}
+
+section {
+    border: 0.5px solid #fd9843;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    width: 345px;
+    margin: 25px auto 25px auto;
+    flex-direction: column;
+}
+
+section button {
+    margin: 15px;
+    background: #fd7e14 !important;
+    border-color: #fd7e14 !important;
+    width: 300px;
+}
+
+.sectionDiv {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+}
+
+.sectionDiv input {
+    width: 300px;
+}
+
+#divResultado {
+    margin: 15px;
+}
+
+#pResultado {
+    width: 300px;
+}
+
+#copyrightlogo {
+    width: 195px;
+}
+
+#formTempo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#formTempo input {
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: #585c61;
+}

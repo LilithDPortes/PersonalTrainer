@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Calorias - Personal Trainer Eduardo</title>
+    <link rel="stylesheet" href="corredor.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h3>Personal Trainer Eduardo - Cálculo de Calorias</h3>
+        </header>
+
+        <section>
+            <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 sectionDiv">
+                    <label>Nome:</label>
+                    <input type="text" id="nome" class="form-control">
+                </div>
+                
+                <div class="col-xs-12 sectionDiv">
+                    <label>Peso:</label>
+                    <input type="number" id="peso" class="form-control">
+                </div>
+                
+                <div class="col-xs-12 sectionDiv">
+                    <label>Distância percorrida (em km):</label>
+                    <input type="number" id="distancia" class="form-control">
+                </div>
+
+                <div class="col-xs-12 sectionDiv" id="formTempo">
+                    <div class="col-md-6">
+                        <label>Horas:</label>
+                        <input type="number" id="horas" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Minutos:</label>
+                        <input type="number" id="minutos" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Segundos:</label>
+                        <input type="number" id="segundos" class="form-control">
+                    </div>
+                </div>
+                
+                <button class="btn btn-success" type="button" id="btnCalcular">Calcular calorias</button>
+            </div>
+
+            <div class="col-xs-12 col-md-12" id="divResultado">
+                <h5>Resultado:</h5>
+                <div class="alert alert-warning" role="alert" id="pResultado" style="display: none;">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="corredorjs.js"></script>
+</body>
+</html>
